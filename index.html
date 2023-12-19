@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="login-section">
+        <div class="formbox login">
+            <form action="">
+
+                <h2>Inicia Sesion</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-envelope' style='color:#ffffff' ></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Correo</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock-alt' style='color:#ffffff' ></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Contraseña</label>
+                </div>
+                <div class="remmber-password">
+                    <label for=""><input type="checkbox" name="" id="">Acuérdate de mí</label>
+                    <a href="#">Has olvidado tu contraseña?</a>
+                </div>
+                <button type="button" class="btn" onclick="redireccion()">
+                    iniciar sesión
+                </button>
+                <div class="create-account">
+                    <p>¿Crea una cuenta? <a href="#" class="register-link"> Registrarse</a></p>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="formbox register">
+            <form action="">
+
+                <h2>Registrarse</h2>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-envelope' style='color:#ffffff' ></i>
+                    </span>
+                    <input type="email" required>
+                    <label for="">Correo</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock-alt' style='color:#ffffff' ></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Contraseña</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class='bx bxs-lock-alt' style='color:#ffffff' ></i>
+                    </span>
+                    <input type="password" required>
+                    <label for="">Confirmar contraseña</label>
+                </div>
+                <button class="btn">Registrar</button>
+                <div class="create-account">
+                    <p>¿Ya tienes una cuenta?<a href="#" class="login-link"> Inicia Sesion</a></p>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
